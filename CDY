@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Mountain Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #ffab91;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Candy Mountain Coin</h1>
+        <p>The sweetest cryptocurrency on the blockchain!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Candy Mountain Coin</h2>
+            <p>Candy Mountain Coin (CMC) is a revolutionary cryptocurrency designed to make your transactions as sweet as possible. Built on cutting-edge blockchain technology, CMC is secure, fast, and environmentally friendly.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Fast and secure transactions</li>
+                <li>Low transaction fees</li>
+                <li>Eco-friendly mining process</li>
+                <li>Community-driven development</li>
+            </ul>
+        </section>
+        <section id="roadmap">
+            <h2>Roadmap</h2>
+            <p>Our roadmap includes exciting milestones like launching our mainnet, introducing staking rewards, and forming strategic partnerships with major platforms.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="mailto:info@candymountaincoin.com">info@candymountaincoin.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Candy Mountain Coin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
